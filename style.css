@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: #6BA3E5; */
     font-family: "Plus Jakarta Sans", sans-serif;
     box-sizing: border-box;
 }
@@ -36,9 +37,9 @@ body {
 
 /* hero section  */
 .hero {
-    background: linear-gradient(135deg, #FFD6E0 0%, #FFB6C1 100%);
-    padding: 40px;
-    margin: 20px;
+    background: linear-gradient(135deg, #f0b8c6 0%, #ae394b 100%);
+    padding: 20px;
+    margin:40px; 
     border-radius: 20px;
 }
 
@@ -46,8 +47,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1665px;
+    margin: auto;
     gap: 100px;
 }
 .hero-text {
@@ -72,7 +73,7 @@ body {
 .price {
     font-size: 2rem;
     font-weight: 700;
-    color: #FF136F;
+    color: #c20909;
     margin-bottom: 20px;
 }
 
@@ -99,7 +100,7 @@ body {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 100%;
 }
 /* title */
 .section-title {
@@ -110,7 +111,7 @@ body {
     padding-left: 40px;
 }
 
- /* vivinno catagory */
+ /* bivinno catagory */
 .categories {
     padding: 40px 20px;
     background-color: #fff;
@@ -144,6 +145,7 @@ body {
 
 .category-card.bag {
         border-radius: 10px;
+        
 
     background: linear-gradient(135deg, #dd0e75 0%, #ff1b89 100%);
 }
